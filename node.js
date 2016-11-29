@@ -6,7 +6,7 @@ var Sequelize = require('sequelize');
 var gpio = require('rpi-gpio');
 
 // Connect to our local MySQL Database
-var sequelize = new Sequelize('trucolor','root','raspberry', {
+var sequelize = new Sequelize('database_name','root','raspberry', {
 	host: 'localhost',
 	dialect: 'mysql'
 });
